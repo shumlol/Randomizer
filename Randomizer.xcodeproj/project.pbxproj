@@ -13,6 +13,7 @@
 		8B39BE922A0165B2009EFCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B39BE902A0165B2009EFCBC /* Main.storyboard */; };
 		8B39BE942A0165B3009EFCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B39BE932A0165B3009EFCBC /* Assets.xcassets */; };
 		8B39BE972A0165B3009EFCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B39BE952A0165B3009EFCBC /* LaunchScreen.storyboard */; };
+		8B42C94B2A02B52700EFE2C2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42C94A2A02B52700EFE2C2 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B39BE932A0165B3009EFCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B39BE962A0165B3009EFCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B39BE982A0165B3009EFCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B42C94A2A02B52700EFE2C2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8B39BE8A2A0165B2009EFCBC /* AppDelegate.swift */,
 				8B39BE8C2A0165B2009EFCBC /* SceneDelegate.swift */,
 				8B39BE8E2A0165B2009EFCBC /* MainViewController.swift */,
+				8B42C94A2A02B52700EFE2C2 /* SettingViewController.swift */,
 				8B39BE902A0165B2009EFCBC /* Main.storyboard */,
 				8B39BE932A0165B3009EFCBC /* Assets.xcassets */,
 				8B39BE952A0165B3009EFCBC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				8B39BE8F2A0165B2009EFCBC /* MainViewController.swift in Sources */,
 				8B39BE8B2A0165B2009EFCBC /* AppDelegate.swift in Sources */,
 				8B39BE8D2A0165B2009EFCBC /* SceneDelegate.swift in Sources */,
+				8B42C94B2A02B52700EFE2C2 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
