@@ -9,21 +9,20 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    @IBOutlet var minimumValueLabel: UILabel!
-    @IBOutlet var maximumValueLabel: UILabel!
+    @IBOutlet var minimumNumberLabel: UILabel!
+    @IBOutlet var maximumNubmerLabel: UILabel!
     @IBOutlet var randomValueLabel: UILabel!
     @IBOutlet var getRandomNumberButton: UIButton!
-    
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         getRandomNumberButton.layer.cornerRadius = 15
 
     }
 
-    @IBAction func getRandomNumberButtonTapped() {
-        let minimumNumber = Int(minimumValueLabel.text ?? "") ?? 0
-        let maximumNumber = Int(maximumValueLabel.text ?? "") ?? 100
+    @IBAction func getRandomNumberTapped(_ sender: UIButton) {
+        let minimumNumber = Int(minimumNumberLabel.text ?? "") ?? 0
+        let maximumNumber = Int(maximumNubmerLabel.text ?? "") ?? 100
         
         randomValueLabel.text = Int.random(in: minimumNumber...maximumNumber).formatted()
     }
