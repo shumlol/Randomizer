@@ -13,13 +13,10 @@ class SettingViewController: UIViewController {
     @IBOutlet var maximumValueTF: UITextField!
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
     
     @IBAction func cancelButtonPressed() {
     dismiss(animated: true)

@@ -27,5 +27,11 @@ class MainViewController: UIViewController {
         randomValueLabel.text = Int.random(in: minimumNumber...maximumNumber).formatted()
     }
 
+    @IBAction func unwindSegue(_ segue: UIStoryboardSegue) {
+        guard let settingVC = segue.source as? SettingViewController else { return }
+        minimumNumberLabel.text = settingVC.minimumValueTF.text
+        maximumNubmerLabel.text = settingVC.maximumValueTF.text
+    }
+    
 }
 
