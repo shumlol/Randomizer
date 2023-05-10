@@ -19,17 +19,29 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="mu6-ar-asf">
                                 <rect key="frame" x="16" y="178.5" width="288" height="219"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="g9U-0s-4sO">
-                                        <rect key="frame" x="26" y="0.0" width="236" height="49"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="g9U-0s-4sO">
+                                        <rect key="frame" x="30" y="0.0" width="228" height="49"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7a-TA-9RT">
-                                                <rect key="frame" x="0.0" y="0.0" width="68" height="29"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7a-TA-9RT">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="29"/>
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to 100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ry-yD-uTd">
-                                                <rect key="frame" x="168" y="0.0" width="68" height="29"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lv2-6k-tbw">
+                                                <rect key="frame" x="60" y="0.0" width="48" height="29"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ry-yD-uTd">
+                                                <rect key="frame" x="120" y="0.0" width="48" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-qj-6fA">
+                                                <rect key="frame" x="180" y="0.0" width="48" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -75,8 +87,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="getRandomNumberButton" destination="bKa-Ix-76G" id="YNC-cE-QOq"/>
-                        <outlet property="maximumNubmerLabel" destination="6ry-yD-uTd" id="8eF-eA-sUc"/>
-                        <outlet property="minimumNumberLabel" destination="i7a-TA-9RT" id="fnm-lE-94F"/>
+                        <outlet property="maximumNubmerLabel" destination="Bb8-qj-6fA" id="v3Q-Sm-QnZ"/>
+                        <outlet property="minimumNumberLabel" destination="Lv2-6k-tbw" id="vQ9-VD-90V"/>
                         <outlet property="randomValueLabel" destination="hzT-SY-bpy" id="Qvg-X6-U4N"/>
                     </connections>
                 </viewController>
